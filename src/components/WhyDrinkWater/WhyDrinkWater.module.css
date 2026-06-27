@@ -1,0 +1,39 @@
+.inner {
+  padding: 24px 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px 0 rgba(64, 123, 255, 0.3);
+  background: var(--color-primary-soft);
+  max-width: 494px;
+}
+.reason {
+  font-size: 18px;
+  line-height: 1.11;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.list {
+}
+.item {
+  padding-left: 16px;
+  position: relative;
+}
+.item::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+.item + .item {
+  margin-top: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .inner {
+    padding: 32px 24px;
+  }
+}

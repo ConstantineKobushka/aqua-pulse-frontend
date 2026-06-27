@@ -1,0 +1,63 @@
+.section {
+  padding: 12px 0 40px;
+  background:
+    url("../../assets/images/welcomepage/welcome-mobile-decor-bg.png") center bottom / 320px 842px no-repeat,
+    url("../../assets/images/welcomepage/welcome-mobile-vector-bg.png") center bottom / 320px 952px no-repeat;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (min-resolution: 192dpi) and (min-width: 320px) {
+  .section {
+    background:
+      url("../../assets/images/welcomepage/welcome-mobile-decor-bg@2x.png") center bottom / 320px 842px no-repeat,
+      url("../../assets/images/welcomepage/welcome-mobile-vector-bg@2x.png") center bottom / 320px 952px no-repeat;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 14px 0 50px;
+    margin-top: 14px;
+    background:
+      url("../../assets/images/welcomepage/welcome-tablet-decor-bg.png") center top / 768px 477px no-repeat,
+      url("../../assets/images/welcomepage/welcome-tablet-bg.png") right bottom 50px / 379px 386px no-repeat,
+      url("../../assets/images/welcomepage/welcome-tablet-vector-bg.png") center bottom / 768px 800px no-repeat;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+  .section {
+    background:
+      url("../../assets/images/welcomepage/welcome-tablet-decor-bg@2x.png") center top / 768px 477px no-repeat,
+      url("../../assets/images/welcomepage/welcome-tablet-bg@2x.png") right bottom 50px / 379px 386px no-repeat,
+      url("../../assets/images/welcomepage/welcome-tablet-vector-bg@2x.png") center bottom / 768px 800px no-repeat;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .section {
+    padding: 30px 0 294px;
+    margin-top: 50px;
+    background:
+      url("../../assets/images/welcomepage/welcome-desctop-decor-bg.png") center top / 1404px 582px no-repeat,
+      url("../../assets/images/welcomepage/welcome-desctop-bg.png") center bottom / 1440px 432px no-repeat;
+  }
+  .wrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 80px;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1440px) {
+  .section {
+    background:
+      url("../../assets/images/welcomepage/welcome-desctop-decor-bg@2x.png") center top / 1404px 582px no-repeat,
+      url("../../assets/images/welcomepage/welcome-desctop-bg@2x.png") center bottom / 1440px 432px no-repeat;
+  }
+}
