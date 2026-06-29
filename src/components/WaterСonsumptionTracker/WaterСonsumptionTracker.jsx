@@ -4,7 +4,7 @@ import styles from './WaterСonsumptionTracker.module.css';
 
 const WaterСonsumptionTracker = () => {
   return (
-    <div className={styles.inner}>
+    <div className={styles.content}>
       <h1 className={styles.title}>Water consumption tracker</h1>
       <h2 className={styles.subtitle}>Record daily water intake and track</h2>
       <h3 className={styles.benefits}>Tracker Benefits</h3>

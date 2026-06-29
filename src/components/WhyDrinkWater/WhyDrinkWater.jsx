@@ -2,8 +2,8 @@ import styles from './WhyDrinkWater.module.css';
 
 const WhyDrinkWater = () => {
   return (
-    <div className={styles.inner}>
-      <h3 className={styles.reason}>Why drink water</h3>
+    <div className={styles.content}>
+      <h3 className={styles.title}>Why drink water</h3>
       <ul className={styles.list}>
         <li className={styles.item}>Supply of nutrients to all organs</li>
         <li className={styles.item}>Providing oxygen to the lungs</li>

@@ -33,8 +33,8 @@
 :root {
   --font-family-main: "Roboto", sans-serif;
 
-  --color-bg: #ffffff;
   --color-text: #2f2f2f;
+  --color-text-secondary: #ffffff;
   --color-text-btn: #ffffff;
 
   --color-primary: #407bff;
